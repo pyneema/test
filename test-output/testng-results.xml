@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<b>Step: Invoke</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[>        Step--1:under initialize --- firefox<br>]]>
+    </line>
+    <line>
+      <![CDATA[>        Step-0:Open Url: <a href="http://www.google.com/" target=_blank>http://www.google.com/</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Step: Test Gmail</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[>        Step-1:Open Url: <a href="http://www.google.com/" target=_blank>http://www.google.com/</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Step: Click Gamil</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[>        Step-2:Click "link=Gmail"<br>]]>
+    </line>
+    <line>
+      <![CDATA[>        Step-3:Text : "Sign in to continue to Gmail" present<br>]]>
+    </line>
+    <line>
+      <![CDATA[<b>Step: Invoke</b><br>]]>
+    </line>
+    <line>
+      <![CDATA[>        Step-4:
+ Total Execution Time: 0 minutes<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29887" started-at="2015-05-13T10:36:08Z" finished-at="2015-05-13T10:36:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29887" started-at="2015-05-13T10:36:08Z" finished-at="2015-05-13T10:36:38Z">
+      <class name="sears.test.testGoogle">
+        <test-method status="PASS" signature="beforeSuiteMethod()[pri:0, instance:sears.test.testGoogle@6d70c116]" name="beforeSuiteMethod" is-config="true" duration-ms="2" started-at="2015-05-13T16:06:08Z" finished-at="2015-05-13T16:06:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:sears.test.testGoogle@6d70c116]" name="beforeTest" is-config="true" duration-ms="21448" started-at="2015-05-13T16:06:08Z" finished-at="2015-05-13T16:06:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Step: Invoke</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[>        Step--1:under initialize --- firefox<br>]]>
+            </line>
+            <line>
+              <![CDATA[>        Step-0:Open Url: <a href="http://www.google.com/" target=_blank>http://www.google.com/</a><br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGmail()[pri:0, instance:sears.test.testGoogle@6d70c116]" name="testGmail" duration-ms="8144" started-at="2015-05-13T16:06:30Z" finished-at="2015-05-13T16:06:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Step: Test Gmail</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[>        Step-1:Open Url: <a href="http://www.google.com/" target=_blank>http://www.google.com/</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<b>Step: Click Gamil</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[>        Step-2:Click "link=Gmail"<br>]]>
+            </line>
+            <line>
+              <![CDATA[>        Step-3:Text : "Sign in to continue to Gmail" present<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testGmail -->
+        <test-method status="PASS" signature="afterTestMethod()[pri:0, instance:sears.test.testGoogle@6d70c116]" name="afterTestMethod" is-config="true" duration-ms="272" started-at="2015-05-13T16:06:38Z" finished-at="2015-05-13T16:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method status="PASS" signature="afterSuiteMethod()[pri:0, instance:sears.test.testGoogle@6d70c116]" name="afterSuiteMethod" is-config="true" duration-ms="16" started-at="2015-05-13T16:06:38Z" finished-at="2015-05-13T16:06:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>Step: Invoke</b><br>]]>
+            </line>
+            <line>
+              <![CDATA[>        Step-4:
+ Total Execution Time: 0 minutes<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- sears.test.testGoogle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

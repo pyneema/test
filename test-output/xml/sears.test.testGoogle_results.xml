@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Suite 1"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.668">
+  <properties />
+  
+  
+            <testcase name="testGoogleSearch" time="17.668" classname="sears.test.testGoogle" />
+      
+</testsuite>

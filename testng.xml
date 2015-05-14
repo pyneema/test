@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="qa_Sample_Regression_Suite" parallel="classes"
+	thread-count="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.saf.testng.MTestListener" />
+
+	</listeners>
+	<test name="Suite 1">
+		<classes>
+			<class name="sears.test.testGoogle"/>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

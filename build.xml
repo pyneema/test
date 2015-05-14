@@ -1,0 +1,32 @@
+<project name="test" basedir="." default="testng-xslt-report">
+	<property name="jars" value="${user.home}/.m2/repository/" />
+	<property name="report-jars" value="${basedir}/src/test/resources/lib/XsltReportJars/" />
+	<property name="BIN" value="${basedir}/bin" />
+	<property name="grp" value="WPM_ProPack_OneYear" />
+	
+		
+	<path id="master-classpath">
+		<pathelement location="${BIN}" />
+		<fileset dir="${jars}">
+			<include name="**/*.jar" />
+		</fileset>
+		<fileset dir="${report-jars}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="testng-xslt-report">
+		<delete dir="${basedir}/test-output/report/${grp}">
+		</delete>
+		<mkdir dir="${basedir}/test-output/report/${grp}">
+		</mkdir>
+		<xslt in="${basedir}/test-output/${grp}/testng-results.xml" style="${basedir}/src/test/resources/lib/XSL/testng-results.xsl" 
+			out="${basedir}/test-output/report/${grp}/index_${grp}.html" processor="SaxonLiaison">
+			<param name="testNgXslt.outputDir" expression="${basedir}/test-output/report/${grp}/"/>
+			<param expression="true" name="testNgXslt.sortTestCaseLinks" />
+			<param expression="FAIL,SKIP,PASS,CONF,BY_CLASS" name="testNgXslt.testDetailsFilter" />
+			<param expression="true" name="testNgXslt.showRuntimeTotals" />
+			<classpath refid="master-classpath" />
+		</xslt>
+	</target>
+</project>

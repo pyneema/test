@@ -1,0 +1,10 @@
+#Wed May 13 12:00:33 IST 2015
+encoding/src/test/java=iso-8859-1
+org.eclipse.jdt.core.compiler.compliance=1.5
+encoding/src/main/resources=iso-8859-1
+org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
+encoding/src/main/java=iso-8859-1
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.5
+eclipse.preferences.version=1
+encoding/src/test/resources=iso-8859-1
+org.eclipse.jdt.core.compiler.source=1.5
